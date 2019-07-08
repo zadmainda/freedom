@@ -18,6 +18,7 @@ main{
   margin: 16px 0px;
   padding: 16px;
   width: 80%;
+
 }
 
 .package:hover,
@@ -32,7 +33,22 @@ main{
   display: block;
   padding: 32px;
   text-decoration: none;
+  position: relative;
 
+}
+
+.package__badge{
+  background: #ff1b68;
+  color: white;
+  padding: 8px;
+  font-size: 16px;
+  width: 160px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .package__subtitle{
@@ -51,6 +67,7 @@ main{
 
 }
 #plus{
+  
   background: rgba(213, 255, 220, 0.95);
 }
 #free{
