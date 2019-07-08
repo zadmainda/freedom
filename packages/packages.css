@@ -51,6 +51,11 @@ border-left: 4px solid #0e4f1f;
 text-align: right;
 }
 
+#free:active,
+#free:hover{
+border-left-color: #ff5454;
+}
+
 #premium .package__title{
   color: white;
 }
