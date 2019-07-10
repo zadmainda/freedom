@@ -2,7 +2,7 @@
 
 .testimonial {
   font-size: 1.2rem;
-  margin: 48px 0;
+  margin: 3rem 0;
   
 }
 
@@ -13,7 +13,7 @@
 }
 
 .testimonial:first-of-type {
-  margin-top: 96px;
+  margin-top: 6rem;
 
 }
 
@@ -32,7 +32,7 @@ vertical-align: top;
 
 .testimonial__info {
   text-align: right;
-  padding: 14px;
+  padding: 0.9rem;
   display: inline-block;
   vertical-align: middle;
   width: 20%;
@@ -47,7 +47,7 @@ vertical-align: top;
 }
 
 .testimonial__name {
-  margin: 3px;
+  margin: 0.2rem;
   color: #ff5454;
   font-size: 2rem;
 }
@@ -69,5 +69,5 @@ vertical-align: top;
 }
 
 .testimonial__text {
-  margin: 3px;
+  margin: 0.2rem;
 }
