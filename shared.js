@@ -11,7 +11,6 @@ for (var i = 0; i < selectPlanButton.length; i++) {
   selectPlanButton[i].addEventListener('click', function() {
     modal.style.display = 'block';
     backdrop.style.display = 'block';
-
    //modal.className = 'open';  //THIS WILL OVERWRITE THE COMPLETE CLASS IN THE ELEMENT
     modal.classList.add('open');
     backdrop.classList.add('open');
