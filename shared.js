@@ -29,6 +29,9 @@ backdrop.addEventListener("click", function(){
 if (modalNoButton){
   modalNoButton.addEventListener("click", closeModal);
 }
+
+
+
 function closeModal() {
   // backdrop.style.display = "none";
   // modal.style.display = "none";  

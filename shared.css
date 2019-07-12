@@ -128,20 +128,6 @@ body {
   border: none;
 }
 
-@media (min-width: 40rem) {
-  .toggle-button {
-    display: none;
-  }
-
-  .main-nav {
-    display: inline-block;
-    text-align: right;
-    width: calc(100% - 44px);
-    vertical-align: middle;
-  }
-}
-
-
 
 /* mobile nav */
 .mobile-nav {
@@ -234,12 +220,4 @@ body {
 
 .open{
   display: block !important ;
-}
-
-
-@media (min-width: 40rem) {
-  .main-footer__link {
-    display: inline-block;
-    margin: 0 1rem;
-  }
 }
